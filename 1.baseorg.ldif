@@ -1,0 +1,44 @@
+dn: ou=Fidor,dc=fidor,dc=loc
+objectClass: organizationalUnit
+objectClass: top
+ou: Fidor
+
+dn: ou=FIDORBank,ou=Fidor,dc=fidor,dc=loc
+objectClass: organizationalUnit
+objectClass: top
+ou: FIDORBank
+
+dn: ou=User,ou=FIDORBank,ou=Fidor,dc=fidor,dc=loc
+objectClass: organizationalUnit
+objectClass: top
+ou: User
+
+dn: ou=ServiceAccount,ou=User,ou=FIDORBank,ou=Fidor,dc=fidor,dc=loc
+objectClass: organizationalUnit
+objectClass: top
+ou: ServiceAccount
+
+dn: ou=_Group-Resourcen,ou=Fidor,dc=fidor,dc=loc
+objectClass: organizationalUnit
+objectClass: top
+ou: _Group-Resourcen
+
+dn: ou=Sicherheitsgruppen,ou=_Group-Resourcen,ou=Fidor,dc=fidor,dc=loc
+objectClass: organizationalUnit
+objectClass: top
+ou: Sicherheitsgruppen
+
+dn: ou=_partner,ou=Fidor,dc=fidor,dc=loc
+objectClass: organizationalUnit
+objectClass: top
+ou: _partner
+
+dn: ou=Oney_Capgemini,ou=_partner,ou=Fidor,dc=fidor,dc=loc
+objectClass: organizationalUnit
+objectClass: top
+ou: Oney_Capgemini
+
+dn: ou=User,ou=Oney_Capgemini,ou=_partner,ou=Fidor,dc=fidor,dc=loc
+objectClass: organizationalUnit
+objectClass: top
+ou: User

@@ -13,7 +13,7 @@ objectClass: top
 olcOverlay: memberof
 olcMemberOfDangling: ignore
 olcMemberOfRefInt: TRUE
-olcMemberOfGroupOC: groupOfNames
+olcMemberOfGroupOC: groupOfUniqueNames
 olcMemberOfMemberAD: member
 olcMemberOfMemberOfAD: memberOf
 

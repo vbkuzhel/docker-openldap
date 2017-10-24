@@ -1,0 +1,193 @@
+dn: cn=ldap_bo-dev,ou=ServiceAccount,ou=User,ou=FIDORBank,ou=Fidor,dc=fidor,dc=loc
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: ldap_bo-dev
+displayName: ldap_bo-dev
+givenName: Ldap
+sn: Bo-dev
+uid: bodev
+userPassword:: e1NIQX10bGU1WURNVHFlVlZzYVBYdW5nQzhJMHVjNE09
+
+dn: cn=epam,ou=User,ou=Oney_Capgemini,ou=_partner,ou=Fidor,dc=fidor,dc=loc
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: epam
+displayName: epam
+givenName: Ldap
+mail: epam@fidor.com
+sn: epam
+uid: epam
+userPassword:: e1NTSEF9bGJBTk8zNGh2cW04dWsyNGJLZVdtQnI1U2RROXI0bjU=
+
+dn: cn=epam2,ou=User,ou=Oney_Capgemini,ou=_partner,ou=Fidor,dc=fidor,dc=loc
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: epam2
+displayName: epam2
+givenName: Ldap
+mail: epam2@fidor.com
+sn: epam2
+uid: epam2
+userPassword:: e1NIQX1RTDBBRldNSVg4TlJaVEtlb2Y5Y1hzdmJ2dTg9
+
+dn: cn=LECLEIRE Vincent,ou=User,ou=Oney_Capgemini,ou=_partner,ou=Fidor,dc=fidor,dc=loc
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: LECLEIRE Vincent
+displayName: LECLEIRE Vincent
+givenName: LECLEIRE
+mail: vlecleire@oney.com
+sn: LECLEIRE
+uid: lecleire
+userPassword:: e1NIQX1RTDBBRldNSVg4TlJaVEtlb2Y5Y1hzdmJ2dTg9
+
+dn: cn=TRAN VAN BA Nha Thi,ou=User,ou=Oney_Capgemini,ou=_partner,ou=Fidor,dc=fidor,dc=loc
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: TRAN VAN BA Nha Thi
+displayName: TRAN VAN BA Nha Thi
+givenName: TRAN VAN BA
+mail: nttranvanba@partner.oney.fr
+sn: TRAN VAN BA Nha Thi
+uid: nttranvanba
+userPassword:: e1NIQX1RTDBBRldNSVg4TlJaVEtlb2Y5Y1hzdmJ2dTg9
+
+dn: cn=DELNESTE Stephanie,ou=User,ou=Oney_Capgemini,ou=_partner,ou=Fidor,dc=fidor,dc=loc
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: DELNESTE Stephanie
+displayName: DELNESTE Stephanie
+givenName: DELNESTE
+mail: sdelneste@oney.fr
+sn: DELNESTE
+uid: sdelneste
+userPassword:: e1NIQX1RTDBBRldNSVg4TlJaVEtlb2Y5Y1hzdmJ2dTg9
+
+dn: cn=TITEUX Sarah,ou=User,ou=Oney_Capgemini,ou=_partner,ou=Fidor,dc=fidor,dc=loc
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: TITEUX Sarah
+displayName: TITEUX Sarah
+givenName: TITEUX
+mail: stiteux@oney.fr
+sn: TITEUX
+uid: stiteux
+userPassword:: e1NIQX1RTDBBRldNSVg4TlJaVEtlb2Y5Y1hzdmJ2dTg9
+
+dn: cn=BARRE Delphine,ou=User,ou=Oney_Capgemini,ou=_partner,ou=Fidor,dc=fidor,dc=loc
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: BARRE Delphine
+displayName: BARRE Delphine
+givenName: BARRE
+mail: dbarre@oney.fr
+sn: BARRE
+uid: dbarre
+userPassword:: e1NIQX1RTDBBRldNSVg4TlJaVEtlb2Y5Y1hzdmJ2dTg9
+
+dn: cn=CATTEAU Catherine,ou=User,ou=Oney_Capgemini,ou=_partner,ou=Fidor,dc=fidor,dc=loc
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: CATTEAU Catherine
+displayName: CATTEAU Catherine
+givenName: CATTEAU
+mail: ccatteau@oney.fr
+sn: CATTEAU Catherine
+uid: ccatteau
+userPassword:: e1NIQX1RTDBBRldNSVg4TlJaVEtlb2Y5Y1hzdmJ2dTg9
+
+dn: cn=BAUDELET Frederic,ou=User,ou=Oney_Capgemini,ou=_partner,ou=Fidor,dc=fidor,dc=loc
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: BAUDELET Frederic
+displayName: BAUDELET Frederic
+givenName: BAUDELET
+mail: fbaudelet@oney.fr
+sn: BAUDELET
+uid: fbaudelet
+userPassword:: e1NIQX1RTDBBRldNSVg4TlJaVEtlb2Y5Y1hzdmJ2dTg9
+
+dn: cn=SANTOUL Florent,ou=User,ou=Oney_Capgemini,ou=_partner,ou=Fidor,dc=fidor,dc=loc
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: SANTOUL Florent
+displayName: SANTOUL Florent
+givenName: SANTOUL
+mail: fsantoul@oney.fr
+sn: SANTOUL
+uid: fsantoul
+userPassword:: e1NIQX1RTDBBRldNSVg4TlJaVEtlb2Y5Y1hzdmJ2dTg9
+
+dn: cn=LUCZAK Dany,ou=User,ou=Oney_Capgemini,ou=_partner,ou=Fidor,dc=fidor,dc=loc
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: LUCZAK Dany
+displayName: LUCZAK Dany
+givenName: LUCZAK
+mail: dluczak@oney.fr
+sn: LUCZAK
+uid: dluczak
+userPassword:: e1NIQX1RTDBBRldNSVg4TlJaVEtlb2Y5Y1hzdmJ2dTg9
+
+dn: cn=JAWAD Azeddine,ou=User,ou=Oney_Capgemini,ou=_partner,ou=Fidor,dc=fidor,dc=loc
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: JAWAD Azeddine
+displayName: JAWAD Azeddine
+givenName: JAWAD
+mail: ajawad@partner.oney.fr
+sn: JAWAD
+uid: ajawad
+userPassword:: e1NIQX1RTDBBRldNSVg4TlJaVEtlb2Y5Y1hzdmJ2dTg9
+
+dn: cn=POTEAU Johannes,ou=User,ou=Oney_Capgemini,ou=_partner,ou=Fidor,dc=fidor,dc=loc
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: POTEAU Johannes
+displayName: POTEAU Johannes
+givenName: POTEAU
+mail: jpotteau@partner.oney.fr
+sn: POTEAU
+uid: jpotteau
+userPassword:: e1NIQX1RTDBBRldNSVg4TlJaVEtlb2Y5Y1hzdmJ2dTg9
+
+dn: cn=SCHRYVE Maryse,ou=User,ou=Oney_Capgemini,ou=_partner,ou=Fidor,dc=fidor,dc=loc
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: SCHRYVE Maryse
+displayName: SCHRYVE Maryse
+givenName: SCHRYVE
+mail: mschryve@oney.fr
+sn: SCHRYVE
+uid: mschryve
+userPassword:: e1NIQX1RTDBBRldNSVg4TlJaVEtlb2Y5Y1hzdmJ2dTg9

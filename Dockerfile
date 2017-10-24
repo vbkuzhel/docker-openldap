@@ -1,9 +1,12 @@
 FROM debian:jessie
 
-MAINTAINER Christian Luginbühl <dinkel@pimprecords.com>
+MAINTAINER Fidor Solutions <connect@fidor.com>
 
 ENV OPENLDAP_VERSION 2.4.40
-
+ENV SLAPD_PASSWORD rootroot
+ENV SLAPD_DOMAIN fidor.loc 
+ENV SLAPD_ADDITIONAL_MODULES memberof
+RUN mkdir -p /etc/ldap/prepopulate
 RUN apt-get update && \
     DEBIAN_FRONTEND=noninteractive apt-get install --no-install-recommends -y \
         slapd=${OPENLDAP_VERSION}* && \
@@ -16,7 +19,11 @@ COPY modules/ /etc/ldap.dist/modules
 
 COPY entrypoint.sh /entrypoint.sh
 
+COPY 1.baseorg.ldif /etc/ldap/prepopulate/
+COPY 2.users.ldif /etc/ldap/prepopulate/
+COPY 3.groups.ldif /etc/ldap/prepopulate/
 EXPOSE 389
+
 
 VOLUME ["/etc/ldap", "/var/lib/ldap"]
 
