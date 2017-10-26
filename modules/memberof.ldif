@@ -14,7 +14,7 @@ olcOverlay: memberof
 olcMemberOfDangling: ignore
 olcMemberOfRefInt: TRUE
 olcMemberOfGroupOC: groupOfUniqueNames
-olcMemberOfMemberAD: member
+olcMemberOfMemberAD: uniqueMember
 olcMemberOfMemberOfAD: memberOf
 
 dn: cn=module,cn=config
@@ -30,4 +30,4 @@ objectClass: olcOverlayConfig
 objectClass: olcRefintConfig
 objectClass: top
 olcOverlay: {1}refint
-olcRefintAttribute: memberof member manager owner
+olcRefintAttribute: memberof uniqueMember manager owner

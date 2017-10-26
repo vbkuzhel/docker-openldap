@@ -103,15 +103,21 @@ else
         echo "Info: Container already configured, therefore ignoring SLAPD_xxx environment variables and preseed files"
     fi
 fi
-
+echo "let us load data"
 if [[ "$first_run" == "true" ]]; then
     if [[ -d "/etc/ldap/prepopulate" ]]; then 
-        for file in `ls /etc/ldap/prepopulate/*.ldif`; do
-            slapadd -F /etc/ldap/slapd.d -l "$file"
-        done
+      #  for file in `ls /etc/ldap/prepopulate/*.ldif`; do
+      #      slapadd -d -1 -F /etc/ldap/slapd.d -l "$file"
+      #  done
+      slapadd -d -1 -F /etc/ldap/slapd.d -l /etc/ldap/prepopulate/1.baseorg.ldif
+      slapadd -d -1 -F /etc/ldap/slapd.d -l /etc/ldap/prepopulate/2.users.ldif 
+      slapadd -d -1 -F /etc/ldap/slapd.d -l /etc/ldap/prepopulate/3.groups.ldif
     fi
 fi
 
 chown -R openldap:openldap /var/lib/ldap/ /var/run/slapd/
 
 exec "$@"
+#if [[ "$first_run" == "true" ]]; then
+#  ldapmodify -x -h localhost -D "cn=admin,dc=fidor,dc=loc" -w rootroot -f /etc/ldap/4.grouppopulate.ldif
+#fi

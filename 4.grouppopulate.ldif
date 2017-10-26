@@ -1,0 +1,69 @@
+dn: cn=BO_test_fullpermission,ou=Sicherheitsgruppen,ou=_Group-Resourcen,ou=Fidor,dc=fidor,dc=loc
+changetype: modify
+add: uniqueMember
+uniqueMember: cn=epam2,ou=User,ou=Oney_Capgemini,ou=_partner,ou=Fidor,dc=fidor,dc=loc
+
+dn: cn=BO_test_fullpermission,ou=Sicherheitsgruppen,ou=_Group-Resourcen,ou=Fidor,dc=fidor,dc=loc
+changetype: modify
+add: uniqueMember
+uniqueMember: cn=epam,ou=User,ou=Oney_Capgemini,ou=_partner,ou=Fidor,dc=fidor,dc=loc
+
+dn: cn=BO_test_fullpermission,ou=Sicherheitsgruppen,ou=_Group-Resourcen,ou=Fidor,dc=fidor,dc=loc
+changetype: modify
+add: uniqueMember
+uniqueMember: cn=BAUDELET Frederic,ou=User,ou=Oney_Capgemini,ou=_partner,ou=Fidor,dc=fidor,dc=loc
+
+dn: cn=BO_test_fullpermission,ou=Sicherheitsgruppen,ou=_Group-Resourcen,ou=Fidor,dc=fidor,dc=loc
+changetype: modify
+add: uniqueMember
+uniqueMember: cn=DELNESTE Stephanie,ou=User,ou=Oney_Capgemini,ou=_partner,ou=Fidor,dc=fidor,dc=loc
+
+dn: cn=BO_test_fullpermission,ou=Sicherheitsgruppen,ou=_Group-Resourcen,ou=Fidor,dc=fidor,dc=loc
+changetype: modify
+add: uniqueMember
+uniqueMember: cn=CATTEAU Catherine,ou=User,ou=Oney_Capgemini,ou=_partner,ou=Fidor,dc=fidor,dc=loc
+
+dn: cn=BO_test_fullpermission,ou=Sicherheitsgruppen,ou=_Group-Resourcen,ou=Fidor,dc=fidor,dc=loc
+changetype: modify
+add: uniqueMember
+uniqueMember: cn=SANTOUL Florent,ou=User,ou=Oney_Capgemini,ou=_partner,ou=Fidor,dc=fidor,dc=loc
+
+dn: cn=BO_test_fullpermission,ou=Sicherheitsgruppen,ou=_Group-Resourcen,ou=Fidor,dc=fidor,dc=loc
+changetype: modify
+add: uniqueMember
+uniqueMember: cn=LUCZAK Dany,ou=User,ou=Oney_Capgemini,ou=_partner,ou=Fidor,dc=fidor,dc=loc
+
+dn: cn=BO_test_fullpermission,ou=Sicherheitsgruppen,ou=_Group-Resourcen,ou=Fidor,dc=fidor,dc=loc
+changetype: modify
+add: uniqueMember
+uniqueMember: cn=POTEAU Johannes,ou=User,ou=Oney_Capgemini,ou=_partner,ou=Fidor,dc=fidor,dc=loc
+
+dn: cn=BO_test_fullpermission,ou=Sicherheitsgruppen,ou=_Group-Resourcen,ou=Fidor,dc=fidor,dc=loc
+changetype: modify
+add: uniqueMember
+uniqueMember: cn=BARRE Delphine,ou=User,ou=Oney_Capgemini,ou=_partner,ou=Fidor,dc=fidor,dc=loc objectClass: inetOrgPerson
+
+dn: cn=BO_test_fullpermission,ou=Sicherheitsgruppen,ou=_Group-Resourcen,ou=Fidor,dc=fidor,dc=loc
+changetype: modify
+add: uniqueMember
+uniqueMember: cn=JAWAD Azeddine,ou=User,ou=Oney_Capgemini,ou=_partner,ou=Fidor,dc=fidor,dc=loc objectClass: inetOrgPerson
+
+dn: cn=BO_test_fullpermission,ou=Sicherheitsgruppen,ou=_Group-Resourcen,ou=Fidor,dc=fidor,dc=loc
+changetype: modify
+add: uniqueMember
+uniqueMember: cn=SCHRYVE Maryse,ou=User,ou=Oney_Capgemini,ou=_partner,ou=Fidor,dc=fidor,dc=loc
+
+dn: cn=BO_test_fullpermission,ou=Sicherheitsgruppen,ou=_Group-Resourcen,ou=Fidor,dc=fidor,dc=loc
+changetype: modify
+add: uniqueMember
+uniqueMember: cn=TITEUX Sarah,ou=User,ou=Oney_Capgemini,ou=_partner,ou=Fidor,dc=fidor,dc=loc
+
+dn: cn=BO_test_fullpermission,ou=Sicherheitsgruppen,ou=_Group-Resourcen,ou=Fidor,dc=fidor,dc=loc
+changetype: modify
+add: uniqueMember
+uniqueMember: cn=TRAN VAN BA Nha Thi,ou=User,ou=Oney_Capgemini,ou=_partner,ou=Fidor,dc=fidor,dc=loc
+
+dn: cn=BO_test_fullpermission,ou=Sicherheitsgruppen,ou=_Group-Resourcen,ou=Fidor,dc=fidor,dc=loc
+changetype: modify
+add: uniqueMember
+uniqueMember: cn=LECLEIRE Vincent,ou=User,ou=Oney_Capgemini,ou=_partner,ou=Fidor,dc=fidor,dc=loc

@@ -42,3 +42,4 @@ dn: ou=User,ou=Oney_Capgemini,ou=_partner,ou=Fidor,dc=fidor,dc=loc
 objectClass: organizationalUnit
 objectClass: top
 ou: User
+

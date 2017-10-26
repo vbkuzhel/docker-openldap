@@ -1,0 +1,4 @@
+dn: cn=BO_test_fullpermission,ou=Sicherheitsgruppen,ou=_Group-Resourcen,ou=Fidor,dc=fidor,dc=loc
+changetype: modify
+add: uniqueMember
+uniqueMember: cn=epam2,ou=User,ou=Oney_Capgemini,ou=_partner,ou=Fidor,dc=fidor,dc=loc

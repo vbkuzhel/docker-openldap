@@ -3,6 +3,7 @@ objectClass: groupOfUniqueNames
 objectClass: top
 cn: BO_test_fullpermission
 description: Berechtigung auf Test und Stage im Backoffice
+uniqueMember: cn=epam1,ou=User,ou=Oney_Capgemini,ou=_partner,ou=Fidor,dc=fidor,dc=loc
 uniqueMember: cn=epam2,ou=User,ou=Oney_Capgemini,ou=_partner,ou=Fidor,dc=fidor,dc=loc
 uniqueMember: cn=epam,ou=User,ou=Oney_Capgemini,ou=_partner,ou=Fidor,dc=fidor,dc=loc
 uniqueMember: cn=BAUDELET Frederic,ou=User,ou=Oney_Capgemini,ou=_partner,ou=Fidor,dc=fidor,dc=loc
